@@ -52,7 +52,7 @@ def detect_and_predict(image_path):
 
 
 if __name__ == "__main__":
-    image_path = r"C:\Users\DISPATCHER\Desktop\BCE 211\images\1.jpg"
+    image_path = r"C:\Users\DISPATCHER\Desktop\BCE 211\images\2.jpg"
     output_image = detect_and_predict(image_path)
     cv2.imshow("Output", output_image)
     cv2.waitKey(0)
